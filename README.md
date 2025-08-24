@@ -14,6 +14,7 @@
 1. Встановити бібліотеки:
 
 pip install diffusers transformers accelerate safetensors pillow
+
 2. Запустити `notebook.ipynb` або `script.py`.
 3. Змінити текстовий опис у змінній `prompt`.
 4. Генеровані файли зберігаються як `sd_output.png` та `final_output.png`.
