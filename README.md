@@ -21,3 +21,27 @@ pip install diffusers transformers accelerate safetensors pillow
 ## Алгоритм
 1. Генерація чорновика з текстового опису через Text-to-Image.
 2. Покращення / зміна стилю через Img2Img pipeline.
+
+
+
+Встановлення проекту локально:
+
+# Генерація зображень за допомогою Stable Diffusion та OpenAI API
+
+## 🎯 Ціль проєкту
+Створити систему для генерації художніх зображень на основі текстових описів за допомогою моделей Stable Diffusion та OpenAI DALL·E.
+
+## 🚀 Запуск
+
+### 1. Встановлення
+```bash
+git clone https://github.com/fedorzipp/generate_images.git
+cd generate_images
+pip install -r requirements.txt
+
+Запуск Streamlit-додатку
+streamlit run app.py
+
+🚀 Приклади запуску 
+python generate_pipeline.py --prompt "A fantasy castle on a mountain" \
+    --edit_prompt "Make it in cyberpunk neon style"
